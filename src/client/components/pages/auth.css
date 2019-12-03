@@ -1,0 +1,17 @@
+.auth-form {
+
+    width: 80%;
+    margin: 6rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+      padding: auto;
+
+  }
+
+  .auth-form-header .head{
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem;
+    color: black;
+}

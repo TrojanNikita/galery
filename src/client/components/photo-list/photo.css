@@ -1,0 +1,19 @@
+.list-group-item.active {
+  font-weight: bold;
+  color: #fff;
+  background-color: #00bc8c;
+}
+
+.list-group-item
+{border-top-left-radius:0.25rem;
+  border-top-right-radius:0.25rem;
+  list-style-type:none;
+  position: relative;
+    padding: 10px 30px;
+
+}
+
+.photo .list-group-item {
+  cursor: pointer;
+  list-style-type:none;
+}

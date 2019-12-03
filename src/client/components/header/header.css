@@ -1,0 +1,58 @@
+.my-header{
+/* 
+	Выравниваем элементы вертикально по центру.
+  flex-direction: column;
+  align-items: flex-start; */
+  min-width: 1250px;
+  text-align: center;
+  height: 4em;
+  background-origin: padding-box;
+  border-bottom: 0.1px solid grey;
+  border-inline-color: aaa;
+}
+
+.my-header .main-head{
+  height: 100%;
+  vertical-align:top;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.my-header .auth{
+height: 100%;
+
+display: inline-block;
+margin-left: 30rem;
+}
+
+.my-header .cat{
+  vertical-align:top;
+  height: 100%;
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+.category{
+  
+  height: 4em;
+  line-height: 4em;
+  cursor: pointer;
+  color:black;
+  display: inline-block;
+  margin-left: 4rem;
+
+}
+
+.signin{
+  display: inline-block;
+  margin:1rem;
+  padding-right: 3rem;
+  line-height: 1rem;
+}
+
+.signup{
+  display: inline-block;
+  margin:1rem;
+  padding-right: 3rem;
+  line-height: 1rem;
+}
